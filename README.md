@@ -22,3 +22,7 @@ git add . --> Añadir los archivos nuevos al repositorio
 git commit -m "Comentario de explicación del commit" --> Commit de los cambios
 git push origin main -->  Subir los cambios al repositorio
 
+5. Para eliminar archivos de Github
+
+git rm -f Notebooks/.ipynb_checkpoints/Untitled-checkpoint.ipynb
+git rm -f Notebooks/Untitled.ipynb
